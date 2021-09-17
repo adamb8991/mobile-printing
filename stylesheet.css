@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */  
+/* On screens that are 600px or less, set the background color to olive */
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+html body {
+font-family: 'Playfair Display', serif;
+cursor:pointer;
+}
+
+.dropshadow{
+	-ms-box-shadow: 0px 3px 5px #444444;
+-moz-box-shadow: 0px 3px 5px #444444;
+-webkit-box-shadow: 0px 3px 5px #444444;
+box-shadow: 0px 3px 5px #444444;
+}
